@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+       div.link {
+                cursor: pointer;
+                text-decoration: underline;
+} 
+    </style>
+
+    <script>
+        //// javascript (using jQuery)
+        //$("div.link").click(function(){
+        //    document.location.href = $(this).attr("rel");
+        //});
+
+        $('#div1').click(function () {
+            window.location = 'page2.html';
+        });
+    </script>
+</head>
+<body>
+    <div id="div1" class="link" rel="http://www.oklcan.com">Click Me</div>
+    <div>Hello</div>
+    <div>Yo Mama</div>
+</body>
+</html>

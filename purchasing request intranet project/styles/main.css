@@ -1,0 +1,171 @@
+﻿body {
+            margin: 0px;
+            
+
+
+
+            /*background-color:rgba(255,103,15,0.4);
+            background-image:url(/images/lion3.jpg);
+            background-repeat:no-repeat;
+            background-position:center 100px;
+            background-size:cover;*/
+           
+             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+7,ff670f+21,aa4f0a+62,0a0009+98&0.4+4,1+100 
+background: -moz-linear-gradient(left, rgba(255,103,15,0.4) 4%, rgba(255,103,15,0.42) 7%, rgba(255,103,15,0.51) 21%, rgba(170,79,10,0.76) 62%, rgba(10,0,9,0.99) 98%, rgba(10,0,9,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(255,103,15,0.4) 4%,rgba(255,103,15,0.42) 7%,rgba(255,103,15,0.51) 21%,rgba(170,79,10,0.76) 62%,rgba(10,0,9,0.99) 98%,rgba(10,0,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(255,103,15,0.4) 4%,rgba(255,103,15,0.42) 7%,rgba(255,103,15,0.51) 21%,rgba(170,79,10,0.76) 62%,rgba(10,0,9,0.99) 98%,rgba(10,0,9,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ff670f', endColorstr='#0a0009',GradientType=1 ); /* IE6-9 */
+            copy;
+        }      
+    
+    /*header styles section*/
+
+        h1 {
+            width: auto;
+            height: 3em;
+            margin: 0 0 5px;
+            padding: 0;
+            box-sizing: border-box;
+            color: maroon;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /*background-repeat: no-repeat;
+            background-position: right center;*/
+        }
+        #logo {
+            border-top: 3px solid black;
+            border-bottom: 1px solid black;
+            border-right: 2px solid black;
+            border-left: 1x solid black;
+            background-image: url(/images/logo1.png);
+            background-repeat: no-repeat;
+            background-position: left top;
+            float: left;
+            display: block;
+            margin: 0 15px 0 0;
+            padding: .5em;
+            width: 162px;
+            height: 82px;
+            box-sizing: border-box;
+            border-radius: 0 30% 8% 30% ;
+        }
+          
+     /*nav styles section*/
+        nav {
+            overflow: hidden;
+            width: 100%;
+            font: 1em bold arial, verdana;        
+            clear: left;
+            margin: 0 ;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            width: auto;
+            text-align: center;
+            margin: 15px 0;
+            padding: 0 10px 0;
+            border-right: solid 1px black;
+            text-shadow: .5px .5px #bd4a4a;
+        }
+
+        
+        /*links style section*/
+        a {
+            text-decoration:none;
+        }
+        a:link {
+            color: maroon;
+        }
+        a:visited {
+            color: lightslategray;
+        }
+        a:focus, a:hover {
+            color: #0a0001;
+            background-color: white;
+        }
+        a:active {
+            color:purple; background-color:lightpink;
+        }
+
+        /*main section styles*/
+        section#main {
+            position: relative;
+            width: auto;
+            clear: left;
+        }
+        .button {
+            color: white;
+            border: 3px solid black;
+            border-radius: 25px;
+            width:35%;
+            height: 5em;
+            margin: 3em 3em 3em 9em;
+            
+        }
+        .button p {
+            
+            font: bold 20px arial, verdana;
+            
+
+        }
+        #btn1 {
+             background-color: #ffd800;
+        }
+        #btn2 {
+             background-color: #80ff00
+        }
+        #btn3 {
+             background-color: #00ffc8;
+        }
+        #btn1:hover {
+            background-color: white;
+            border-color: #ffd800;
+            color: #ffd800;
+        }
+        #btn2:hover {
+            background-color: white;
+            border-color: #80ff00;
+            color: #80ff00;
+        }
+        #btn3:hover {
+            background-color: white;
+            border-color: #00ffc8;
+            color: #00ffc8;
+        }
+        #p1 {
+            display: inline-block;
+            position: relative;
+            top: 10%;
+            left: 37%;
+            
+        }
+        #p2 {
+            position: relative;
+            top: 10%;
+            left: 35%;
+        }
+        #p3 {
+            position: relative;
+            top: 10%;
+            left: 33%;
+        }
+
+        /*footer styles*/
+        footer#foot {
+            color: maroon;
+            font: bold 1em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: auto;
+            text-align: center;        
+            
+        }
+        footer p {
+            margin: 0 5%;
+        }
+        
